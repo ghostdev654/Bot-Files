@@ -96,7 +96,7 @@ Es normal que el Subbot no se responda a a sí mismo, o que muestre "Esperando e
 
 Para conectarse al bot hay que poner el comando ".code --me" o reemplazar el --me por el número de teléfono completo (Ej: +57 324 667 890) en el chat donde está el bot funcionado. Luego de eso, el bot enviará un mensaje interactivo con botones preguntando que método elige el usuario para vincular (Paring Code o QR). Luego de seleccionar un método, el bot le enviará un mensaje explicativo sobre cómo tiene que vincular. Al finalizar la vinculación, el bot enviará un mensaje de confirmación, en caso de fallar, también lo avisará.
 
-El error "ENOSP: no space left on device, write" se debe a que el host usado es de bajo recursos y no puede manejar archivos de gran tamaño. (Suele pasar en comandos de descarga)
+El error "ENOSP: no space left on device, write" se debe a que el host usado es de bajo recursos y no puede manejar archivos de gran tamaño. (Suele pasar en comandos de descarga, NO en los de texto plano.)
 
 Para que otro usuario pueda usar el bot en chat privado, el propietario del SubBot tiene que citar un mensaje con ".+lista" para autorizarlo.
 
